@@ -71,9 +71,7 @@ const translations = {
       ],
       investorBenefits: [
         "Massive addressable market in Norway",
-        "Scalable technology platform",
         "Strong partnerships with key players",
-        "Experienced founding team",
       ],
     },
     roadmap: {

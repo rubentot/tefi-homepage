@@ -39,7 +39,7 @@ const translations = {
       },
       whyTitle: "Why Tefi Exists",
       whyDescription:
-        "Norway's real estate market suffers from inefficiencies, lack of transparency, and trust issues in the bidding process. Tefi eliminates these problems through automation, verification, and seamless integration with existing platforms, creating a more efficient and trustworthy marketplace for all participants.",
+        "Our goal is to change the bidding process, as it suffers from inefficiencies, lack of transparency, and trust issues. Tefi eliminates these problems through automation, verification, and seamless integration with existing platforms, creating a more efficient and trustworthy marketplace for all participants.",
     },
     solution: {
       title: "Our Technology Solution",
@@ -247,7 +247,13 @@ export default function HomePage() {
       <nav className="fixed top-0 w-full bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm border-b border-slate-200 dark:border-slate-700 z-50 transition-colors">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-xl font-semibold text-slate-900 dark:text-white">Tefi</div>
+            <button
+              className="text-xl font-semibold text-slate-900 dark:text-white focus:outline-none"
+              aria-label="Go to top"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            >
+              Tefi
+            </button>
             <div className="hidden md:flex items-center space-x-8">
               <a
                 href="#about"

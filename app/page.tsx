@@ -438,7 +438,7 @@ export default function HomePage() {
           </div>
 
           {/* Timeline line */}
-          <div className="absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-slate-200 dark:bg-slate-600 hidden md:block"></div>
+          <div className="absolute left-1/2 transform -translate-x-px h-[120px] w-0.5 bg-slate-200 dark:bg-slate-600 hidden md:block"></div>
 
           <div className="space-y-8">
             {/* Phase 1 */}
